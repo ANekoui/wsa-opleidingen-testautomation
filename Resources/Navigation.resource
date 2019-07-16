@@ -10,5 +10,6 @@ Selecteer Navigatie Button
     ...    ELSE IF    '${item}' == 'Detachering'     Wait Until Page Contains Element    DetacheringPage
     ...    ELSE IF    '${item}' == 'Academy'     Wait Until Page Contains Element    DetacheringPage
     ...    ELSE IF    '${item}' == 'Contact'     Wait Until Page Contains Element    ContactPage
+    ...    ELSE IF    '${item}' == 'Werkenbij'     Wait Until Page Contains Element    HomePage
     ...    ELSE    Fail    Deze optie wordt niet ondersteund
     
